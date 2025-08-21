@@ -1,0 +1,11 @@
+---
+name: Cerebras GPT-OSS 120B
+version: 1.0.0
+schema: v1
+models:
+  - name: Cerebras GPT-OSS 120B
+    provider: cerebras
+    model: gpt-oss-120b
+    apiKey:   ${{ inputs.CEREBRAS_API_KEY }}
+capabilities:
+  - tool_use
